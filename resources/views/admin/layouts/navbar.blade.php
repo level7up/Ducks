@@ -1,15 +1,15 @@
 <div class="wrapper">
-    <div class="sidebar">
+    <div class="sidebar" >
       <!--
         Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red"
     -->
       <div class="sidebar-wrapper">
         <div class="logo">
           <a href="javascript:void(0)" class="simple-text logo-mini">
-            CT
+            DK
           </a>
           <a href="javascript:void(0)" class="simple-text logo-normal">
-            Creative Tim
+          Dashboard
           </a>
         </div>
         <ul class="nav">
@@ -21,8 +21,8 @@
           </li>
           <li>
             <a href="./icons.html">
-              <i class="tim-icons icon-atom"></i>
-              <p>Icons</p>
+              <i class="tim-icons icon-single-02"></i>
+              <p>Users</p>
             </a>
           </li>
           <li>
@@ -128,7 +128,7 @@
                   <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Profile</a></li>
                   <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Settings</a></li>
                   <li class="dropdown-divider"></li>
-                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Log out</a></li>
+                  <li class="nav-link"><a href="{{url('admin/logout')}}" class="nav-item dropdown-item">Log out</a></li>
                 </ul>
               </li>
               <li class="separator d-lg-none"></li>
